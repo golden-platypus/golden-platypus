@@ -10,7 +10,6 @@
 [![📚 Конспекты по 1С:Предприятие 8.3 — справочники, регистры, запросы, СКД и клиент-сервер](https://img.shields.io/badge/📚%20Теория%201С-Конспекты%20по%20платформе%208.3-e8c84a?style=for-the-badge&labelColor=1a1a2e)](https://github.com/golden-platypus/1c-theory)
 
 </div>
----
 
 ## 👨‍💻 О себе
 
