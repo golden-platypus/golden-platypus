@@ -8,7 +8,11 @@
 ______________________________________________________________________________________________________________________
 
 <div align="center">
+<div align="center">
 
+[![1С Паспорт квалификации](https://img.shields.io/badge/1С-Паспорт%20квалификации-e8c84a?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzFhMWEyZSIgZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bTAgMThjLTQuNDEgMC04LTMuNTktOC04czMuNTktOCA4LTggOCAzLjU5IDggOC0zLjU5IDgtOCA4em0tMS0xM3Y2bDUgMC0uNzUgMS4yM0wxMSAxNVY3aDJ6Ii8+PC9zdmc+&labelColor=1a1a2e)](https://uc1.1c.ru/account/summary/?token=0cb77f19d97f8ad5e13a50ab5e697420&ver=2) &nbsp; [![📚 Теория 1С](https://img.shields.io/badge/📚%20Теория%201С-Конспекты%20по%20платформе%208.3-e8c84a?style=for-the-badge&labelColor=1a1a2e)](https://github.com/ТВОЙ_НИКНЕЙМ/1c-theory)
+
+</div>
 [![📚 Конспекты по 1С:Предприятие 8.3 — справочники, регистры, запросы, СКД и клиент-сервер](https://img.shields.io/badge/📚%20Теория%201С-Конспекты%20по%20платформе%208.3-e8c84a?style=for-the-badge&labelColor=1a1a2e)](https://github.com/golden-platypus/1c-theory)
 
 </div>
