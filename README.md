@@ -109,10 +109,10 @@ ________________________________________________________________________________
 
 <div align="center">
 
-[![Telegram](https://img.shields.io/badge/Telegram-@gelbesSchwein-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/gelbesSchwein)
-[![Gmail](https://img.shields.io/badge/Gmail-qscfthnjilaz-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:qscfthnjilaz@gmail.com)
-[![Yandex](https://img.shields.io/badge/Яндекс-gelbesSchwein-FF0000?style=for-the-badge&logo=yandex&logoColor=white)](mailto:gelbesSchwein@yandex.ru)
-[![Mail.ru](https://img.shields.io/badge/Mail.ru-ovilooo-005FF9?style=for-the-badge&logo=mail.ru&logoColor=white)](mailto:ovilooo@mail.ru)
+| | | | |
+|:---:|:---:|:---:|:---:|
+| [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/gelbesSchwein) | [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:qscfthnjilaz@gmail.com) | [![Yandex](https://img.shields.io/badge/Яндекс-FF0000?style=for-the-badge&logo=yandex&logoColor=white)](mailto:gelbesSchwein@yandex.ru) | [![Mail.ru](https://img.shields.io/badge/Mail.ru-005FF9?style=for-the-badge&logo=mail.ru&logoColor=white)](mailto:ovilooo@mail.ru) |
+| @gelbesSchwein | qscfthnjilaz | gelbesSchwein | ovilooo |
 
 </div>
 
