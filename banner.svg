@@ -1,0 +1,125 @@
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg" width="800" height="200">
+  <defs>
+    <clipPath id="clip">
+      <rect width="800" height="200" rx="14"/>
+    </clipPath>
+
+    <!-- Scanning line gradient -->
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8c84a" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#e8c84a" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#e8c84a" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Glow for logo -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#clip)">
+
+    <!-- Background -->
+    <rect width="800" height="200" fill="#0f0f1e"/>
+
+    <!-- Grid lines horizontal -->
+    <line x1="0" y1="40" x2="800" y2="40" stroke="#e8c84a" stroke-width="0.3" opacity="0.12"/>
+    <line x1="0" y1="80" x2="800" y2="80" stroke="#e8c84a" stroke-width="0.3" opacity="0.12"/>
+    <line x1="0" y1="120" x2="800" y2="120" stroke="#e8c84a" stroke-width="0.3" opacity="0.12"/>
+    <line x1="0" y1="160" x2="800" y2="160" stroke="#e8c84a" stroke-width="0.3" opacity="0.12"/>
+
+    <!-- Grid lines vertical -->
+    <line x1="80" y1="0" x2="80" y2="200" stroke="#e8c84a" stroke-width="0.3" opacity="0.07"/>
+    <line x1="160" y1="0" x2="160" y2="200" stroke="#e8c84a" stroke-width="0.3" opacity="0.07"/>
+    <line x1="240" y1="0" x2="240" y2="200" stroke="#e8c84a" stroke-width="0.3" opacity="0.07"/>
+    <line x1="320" y1="0" x2="320" y2="200" stroke="#e8c84a" stroke-width="0.3" opacity="0.07"/>
+    <line x1="400" y1="0" x2="400" y2="200" stroke="#e8c84a" stroke-width="0.3" opacity="0.07"/>
+    <line x1="480" y1="0" x2="480" y2="200" stroke="#e8c84a" stroke-width="0.3" opacity="0.07"/>
+    <line x1="560" y1="0" x2="560" y2="200" stroke="#e8c84a" stroke-width="0.3" opacity="0.07"/>
+    <line x1="640" y1="0" x2="640" y2="200" stroke="#e8c84a" stroke-width="0.3" opacity="0.07"/>
+    <line x1="720" y1="0" x2="720" y2="200" stroke="#e8c84a" stroke-width="0.3" opacity="0.07"/>
+
+    <!-- Scanning line animation -->
+    <rect width="800" height="60" fill="url(#scanGrad)">
+      <animateTransform attributeName="transform" type="translate" values="0,-60; 0,200" dur="3s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Left accent bar -->
+    <rect x="0" y="0" width="4" height="200" fill="#e8c84a" opacity="0.9"/>
+
+    <!-- 1C Logo block -->
+    <rect x="28" y="66" width="68" height="68" rx="10" fill="#e8c84a" filter="url(#glow)"/>
+    <text x="62" y="109" font-family="'Segoe UI', Arial, sans-serif" font-size="30" font-weight="700" fill="#0f0f1e" text-anchor="middle" letter-spacing="-1">1С</text>
+
+    <!-- Main title -->
+    <text x="118" y="98" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="600" fill="#e8c84a">
+      1С Разработчик
+    </text>
+
+    <!-- Subtitle -->
+    <text x="118" y="124" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#8888aa">
+      Платформа 8.3 · Управляемое приложение · Интерфейс Такси
+    </text>
+
+    <!-- Blinking cursor after subtitle -->
+    <rect x="489" y="112" width="9" height="14" fill="#e8c84a" rx="1">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Divider line -->
+    <line x1="118" y1="136" x2="500" y2="136" stroke="#2a2a4a" stroke-width="1"/>
+
+    <!-- Status badge -->
+    <rect x="118" y="146" width="168" height="24" rx="12" fill="#1e1e3a" stroke="#e8c84a" stroke-width="0.8" stroke-opacity="0.5"/>
+    <circle cx="132" cy="158" r="4" fill="#4ade80">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="142" y="163" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#a0a0c0">Открыт к предложениям</text>
+
+    <!-- Right side: floating code block -->
+    <rect x="530" y="20" width="250" height="160" rx="8" fill="#0a0a18" stroke="#1e1e3a" stroke-width="1"/>
+
+    <!-- Code block title bar -->
+    <rect x="530" y="20" width="250" height="24" rx="8" fill="#141428"/>
+    <rect x="530" y="32" width="250" height="12" fill="#141428"/>
+    <circle cx="546" cy="32" r="4" fill="#ff5f56"/>
+    <circle cx="560" cy="32" r="4" fill="#ffbd2e"/>
+    <circle cx="574" cy="32" r="4" fill="#27c93f"/>
+    <text x="650" y="37" font-family="'Courier New', monospace" font-size="10" fill="#444466" text-anchor="middle">1cv8.cf</text>
+
+    <!-- Code lines with animation -->
+    <text font-family="'Courier New', monospace" font-size="10.5" x="542">
+      <!-- Line 1 -->
+      <tspan x="542" dy="36" fill="#555580">// обработка проведения</tspan>
+      <!-- Line 2 -->
+      <tspan x="542" dy="14" fill="#e8c84a">Процедура </tspan><tspan fill="#7ecfff">ОбрПроведения</tspan><tspan fill="#cccccc">(Отказ)</tspan>
+      <!-- Line 3 -->
+      <tspan x="548" dy="14" fill="#e8c84a">Для Каждого</tspan><tspan fill="#cccccc"> Стр </tspan><tspan fill="#e8c84a">Из</tspan><tspan fill="#cccccc"> ТЧ </tspan><tspan fill="#e8c84a">Цикл</tspan>
+      <!-- Line 4 -->
+      <tspan x="556" dy="14" fill="#cccccc">Движение = Движения.</tspan>
+      <!-- Line 5 -->
+      <tspan x="556" dy="14" fill="#7ecfff">ОстаткиНоменклатуры</tspan>
+      <!-- Line 6 -->
+      <tspan x="556" dy="14" fill="#cccccc">.Добавить();</tspan>
+      <!-- Line 7 -->
+      <tspan x="548" dy="14" fill="#e8c84a">КонецЦикла</tspan><tspan fill="#cccccc">;</tspan>
+      <!-- Line 8 -->
+      <tspan x="542" dy="14" fill="#e8c84a">КонецПроцедуры</tspan>
+      <!-- Blinking cursor -->
+      <tspan fill="#e8c84a" dy="0"> </tspan>
+    </text>
+
+    <!-- Blinking cursor in code -->
+    <rect x="655" y="166" width="7" height="11" fill="#e8c84a" rx="1">
+      <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Bottom border glow -->
+    <rect x="0" y="197" width="800" height="3" fill="#e8c84a" opacity="0.6"/>
+
+  </g>
+</svg>
