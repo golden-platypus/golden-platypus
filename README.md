@@ -109,7 +109,9 @@ ________________________________________________________________________________
 
 <div align="center">
 
-[![Telegram](https://img.shields.io/badge/-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/gelbesSchwein) &nbsp; [![Gmail](https://img.shields.io/badge/-Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:qscfthnjilaz@gmail.com) &nbsp; [![Yandex](https://img.shields.io/badge/-Яндекс-FF0000?style=for-the-badge&logo=yandex&logoColor=white)](mailto:gelbesSchwein@yandex.ru) &nbsp; [![Mail.ru](https://img.shields.io/badge/-Mail.ru-005FF9?style=for-the-badge&logo=mail.ru&logoColor=white)](mailto:ovilooo@mail.ru)
+<a href="https://t.me/gelbesSchwein">
+  <img src="https://img.shields.io/badge/Написать%20в%20Telegram-@gelbesSchwein-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1a1a2e" alt="Telegram"/>
+</a>
 
 </div>
 
