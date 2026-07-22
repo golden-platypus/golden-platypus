@@ -94,7 +94,7 @@ ________________________________________________________________________________
 
 <div align="center">
 
-<a href="https://t.me/gelbesSchwein">
+<a href="https://t.me/garaninartem">
   <img src="https://img.shields.io/badge/Написать%20в%20Telegram-@gelbesSchwein-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1a1a2e" alt="Telegram"/>
 </a>
 
